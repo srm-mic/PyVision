@@ -7,11 +7,17 @@ In PyTorch only!
 
 ## Currently available architectures
 
-- **Multi Task Cascaded Convolutional Neural Network (MTCNN)** : A SOTA face and facial-landmark detection architecture. Check out [this](https://github.com/pranjaldatta/PyVision/blob/master/mtcnn/README.md) out for more details.
+- **Multi Task Cascaded Convolutional Neural Network (MTCNN)** : A SOTA face and facial-landmark detection architecture. Check out [this](https://github.com/pranjaldatta/PyVision/tree/master/pyvision/misc/mtcnn) out for more details.
 
-- **YOLOv3:** The SOTA object detection algorithm. For more details, read the [docs](https://github.com/pranjaldatta/PyVision/blob/master/detection/yolov3/readme.md).
+- **YOLOv3:** The SOTA object detection algorithm. For more details, read the [docs](https://github.com/pranjaldatta/PyVision/tree/master/pyvision/detection/yolov3).
 
 - **FaceNet: A Unified Embedding for Face Recognition and Clustering**: One of the most popular architectures used for facial recognition. For more details, check [here](https://github.com/pranjaldatta/PyVision/tree/master/pyvision/face_detection/facenet).
+
+- **DEtection TRansformer (DETR)**: An end-to-end object detection architecture using transformers. For more details, check [here](https://github.com/pranjaldatta/PyVision/tree/master/pyvision/detection/detr).
+
+- **Neural Style Transfer (NST)**: Transfer *style* from one Image into another. For more details, check [here](https://github.com/pranjaldatta/PyVision/tree/master/pyvision/misc/NeuralStyleTransfer)
+
+- **Pyramid Scene Parsing Network (PSPNet)**: Instance Segmentation architecture that makes use of *Pyramid Pooling Module* for better results. For more details, check [here](https://github.com/pranjaldatta/PyVision/tree/master/pyvision/segmentation/pspnet).
 
 For full list of architectures that has been ported or are **in the process** of being ported, check [here](https://github.com/pranjaldatta/PyVision/blob/master/docs/developing.md).
 
@@ -52,3 +58,5 @@ For contribution guidelines, please look [here](https://github.com/pranjaldatta/
 ## Note
 
 Currently, its working only in pre-configured conda environment with all dependencies installed.
+
+**P.S.** Star the repo if you liked the work!
